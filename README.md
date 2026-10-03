@@ -19,6 +19,7 @@ Send `$codex-diff-history`, or ask "Export Codex diff history" / "导出 Codex �
 
 - Exports go to `~/codexDiffHistory/codex-diff-<session-start-date>-<session-id>.md`.
 - Repeated exports update the same session's file; other sessions retain their own files.
+- Every successful export includes a clickable local file link labeled `导出记录` in the final reply, using the export's absolute path, whether or not the changed-files panel appears.
 - On a remote client, Codex attempts to publish the Markdown with its native file-edit tool so the current turn's changed-files panel can display it.
 - If panel publication is unavailable, the file is still saved and the reply includes a link and summary. The client controls whether the panel appears.
 - Changes to exported history files are excluded from subsequent exports to prevent recursive growth.
