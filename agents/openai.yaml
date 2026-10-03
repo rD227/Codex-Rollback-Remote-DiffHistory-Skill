@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Diff History"
+  short_description: "Export per-turn Codex file changes to Markdown"
+  default_prompt: "使用 $codex-diff-history 将当前会话的历轮文件改动导出到 ~/codexDiffHistory。"

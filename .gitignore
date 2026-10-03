@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+codexDiffHistory/
+codex-diff-*.md
+rollout-*.jsonl
+*.patch
